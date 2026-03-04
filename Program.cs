@@ -20,7 +20,7 @@ namespace _2
 
             foreach (var item in producto)
             {
-
+                Console.WriteLine("codigo: " + item.Key +" \n "+ item.Value);
             }
 
         }
